@@ -1,0 +1,82 @@
+/* Index Page */
+/* Nav Block */
+#logo{
+    background-color: #4aaaa5; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+a{
+    color: #aea5a4;
+    border-right: 1px solid #f0eae9b9;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* Content Block */
+body{
+    background-image: url(../images/sakura.png);
+}
+h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+hr{
+    height: 3px;
+    color: #e6e1e1;
+    background-color: #e6e1e1;
+    border: none;
+}
+p{
+    color: #777777;
+    line-height: 1.8;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#end{
+    text-align: center;
+    font-size: 12px;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+}
+#lastP{
+    color: #d6d2d2;
+    margin: 0;
+}
+
+/* Contact Page */
+/* Content Block */
+form{
+    color: #777777;
+}
+#pressButton{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+/* Portfolio Page */
+/* Content Block */
+.portfolioImg{
+    height: 170px;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    bottom: 80px;
+    text-align: center;
+} 
+/* Alternative Way to position Text with img */
+/* .ab{
+    top: 120px;
+    width: 100%;
+} */
