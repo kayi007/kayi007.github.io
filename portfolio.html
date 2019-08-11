@@ -6,28 +6,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About | Your Name</title>
-
+    <title>Projects | Kathleen Leung</title>
+    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <!-- Bootstrap CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header class="bg-white border-bottom">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="container-fluid">
                     <div class="col-xs-12">
                         <!-- Start Nav -->
-                        <nav class="navbar navbar-expand-lg navbar-light p-0" >
-                            <span class="navbar-brand mb-0 h1 text-white p-3 m-0 text-center" id="logo">Kathleen Leung</span>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
+                            <span class="navbar-brand mb-0 h1 text-white p-3 m-0 text-center" id="logo">Kathleen
+                                Leung</span>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            
+
                             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                                 <ul class="nav navbar-nav">
                                     <li class="nav-item">
@@ -52,86 +59,111 @@
     <div class="container mt-4">
         <div class="row">
             <div class="container-fluid">
-                <div class="col-xs-12 bg-white overflow-auto p-5">
-                    <h1>Portfolio</h1>
-                    <hr />
+                <div class="col-xs-12 overflow-auto p-5" id="projects">
+                    <h1 id="projectHead" class="float-right">Projects</h1>
                     <div class="w-100"></div>
-                    <!-- First Row -->
-                    <div class="row">
-                        <!-- Alt Way w/ absolute & relative  -->
-                        <!-- <div class="col-xs-12 col-md-4 position-relative"> -->
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Inu Gathering .jpg" alt="A group of shiba gathering" class="portfolioImg">
-                            <!-- <div class="row position-absolute ab"> -->
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Inu Gathering</h3>
+                    <!-- First Project -->
+                    <div class="row mt-5">
+                        <div class="col mt-3">
+                            <a href="https://truslide12.github.io/Project1/">
+                                <img src="assets/images/duh!.jpg" alt="travel wallpaper" class="projImg img-fluid">
+                            </a>
+                            <div class="row my-4">
+                                <div class="col-4">
+                                    <h4 class="projTitle mb-0">Duh! Travel Planner</h4>
+                                    <p class="checkItOut">Click Image to View Live</p>
+                                </div>
+                                <div class="col-8">
+                                    <p>Be your own travel agent! Make your trip a lasting memory.<br />Provide Excellent
+                                        Stress Relief, Convenient and Efficient, A Place for Record</p>
+                                    <p class="skill m-0">HTML, CSS, API/AJAX, JavaScript, jQuery, Firebase, Bootstrap,
+                                        Font Awesome, Moment.js, Google Font</p>
+                                    <a href="https://github.com/kayi007/Project1"><i
+                                            class="fa fa-file-code-o text-dark float-right"
+                                            style="font-size:24px;"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Out Hunting.jpg" alt="Inu Hunting" class="portfolioImg">
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Inu Hunting</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-4"></div>
-                        <!-- <div class="col-xs-12 col-md-3"></div> -->
                     </div>
-                    <div class="w-100"></div>
-                    <!-- Second Row -->
+                    <!-- Trivia Game -->
                     <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Playing Fetch.jpg" alt="Inu Playing Fetch" class="portfolioImg">
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Inu Fetching</h3>
+                        <div class="col">
+                            <a href="https://kayi007.github.io/TriviaGame/">
+                                <img src="assets/images/disney.jpg" alt="disney world wallpaper"
+                                    class="projImg img-fluid">
+                            </a>
+                            <div class="row my-4">
+                                <div class="col-4">
+                                    <h4>Disney Trivia Game</h4>
+                                </div>
+                                <div class="col-8">
+                                    <p>A Timed Disney Trivia Game: Test To See If You're a True Disney Lover (Total of 6
+                                        Questions and you have 30 seconds to answer each question)</p>
+                                    <p class="skill m-0">HTML, CSS, JavaScript, jQuery, Bootstrap, Google Font, API/AJAX
+                                    </p>
+                                    <a href="https://github.com/kayi007/TriviaGame"><i
+                                            class="fa fa-file-code-o text-dark float-right"
+                                            style="font-size:24px;"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Spacing Out.jpg" alt="Inu Spacing Out" class="portfolioImg">
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Spacing Out</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-4"></div>
                     </div>
-                    <div class="w-100"></div>
-                    <!-- Third Row -->
+                    <!-- GifTastic -->
                     <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Sprinting .jpg" alt="Inu Sprinting" class="portfolioImg">
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Inu Sprinting</h3>
+                        <div class="col">
+                            <a href="https://kayi007.github.io/GifTastic/">
+                                <img src="assets/images/tvgif.jpg" alt="A person watching Movies/TV Shows wallpaper"
+                                    class="projImg img-fluid">
+                            </a>
+                            <div class="row my-4">
+                                <div class="col-4">
+                                    <h4>GifTastic</h4>
+                                </div>
+                                <div class="col-8">
+                                    <p>A Timed Disney Trivia Game: Test To See If You're a True Disney Lover (Total of 6
+                                        Questions and you have 30 seconds to answer each question)</p>
+                                    <p class="skill m-0">HTML, CSS, JavaScript, Google Font, jQuery, Bootstrap, API/AJAX
+                                    </p>
+                                    <a href="https://github.com/kayi007/GifTastic"><i
+                                            class="fa fa-file-code-o text-dark float-right"
+                                            style="font-size:24px;"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                            <img src="assets/images/Walking Show.jpg" alt="Inu at a walk show" class="portfolioImg">
-                            <div class="row">
-                                <div class="col">
-                                    <h3 class="position-relative">Walking Show</h3>
+                    </div>
+                    <!-- Word Guess Game -->
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://kayi007.github.io/Word-Guess-Game/">
+                                <img src="assets/images/GOT.png" alt="Game of Throne Kingslanding wallpaper"
+                                    class="projImg img-fluid">
+                            </a>
+                            <div class="row my-4">
+                                <div class="col-4">
+                                    <h4>Game Of Throne Hangman</h4>
+                                </div>
+                                <div class="col-8">
+                                    <p>A GOT Hangman Game for all the Game of Throne Fans Out There! <br /> Just like any hangman game, user gets 12 chances to complete the word. If user failed, the game will give user another new word to guess. (User will get some hints on the side to help them guess the word)</p>
+                                    <p class="skill m-0">HTML, CSS, JavaScript (Vanilla), Google Font
+                                    </p>
+                                    <a href="https://github.com/kayi007/Word-Guess-Game"><i
+                                            class="fa fa-file-code-o text-dark float-right"
+                                            style="font-size:24px;"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-4"></div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <footer>
-        <div class="container-fluid fixed-bottom" id="end">
+        <div class="container-fluid" id="end">
             <div class="row">
                 <div class="col-xs-12 col-md-12">
-                        <p id="lastP">Copyright &copy;</p>
+                    <p id="lastP">Copyright &copy; Kathleen Leung</p>
                 </div>
             </div>
         </div>
@@ -145,4 +177,5 @@
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

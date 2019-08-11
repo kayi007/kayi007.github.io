@@ -1,20 +1,21 @@
 /* Index Page */
 /* Nav Block */
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
 #logo{
     background-color: #4aaaa5; 
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-a{
-    color: #aea5a4;
-    border-right: 1px solid #f0eae9b9;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 /* Content Block */
 body{
-    background-image: url(../images/sakura.png);
+    background-image: url(../images/dust_scratches.png); 
+}
+#projectHead{
+    font-size: 80px;
+    position: absolute;
+    z-index: 2;
 }
 h1{
     color: #4aaaa5;
@@ -40,12 +41,10 @@ p{
 #end{
     text-align: center;
     font-size: 12px;
-    background-color: #666666;
     padding: 20px;
-    border-top: 5px solid #4aaaa5;
 }
 #lastP{
-    color: #d6d2d2;
+    color: #a8a5a5;
     margin: 0;
 }
 
@@ -58,13 +57,6 @@ form{
     background-color: #4aaaa5;
     color: #ffffff;
 }
-
-/* Portfolio Page */
-/* Content Block */
-.portfolioImg{
-    height: 170px;
-    margin-bottom: 20px;
-}
 h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
@@ -76,7 +68,39 @@ h3{
     text-align: center;
 } 
 /* Alternative Way to position Text with img */
-/* .ab{
-    top: 120px;
+.project{
+    height: 100px;
+    bottom: 200px;
     width: 100%;
-} */
+}
+.projImg{
+    opacity: 0.8;
+}
+.skill{
+    color: indianred;
+}
+.projImg:hover{
+    opacity: 1.0;
+}
+.checkItOut {
+    margin-top: 70px;
+    font-size: 15px;
+    animation: bounce 2s infinite alternate;
+    -webkit-animation: bounce 2s infinite alternate;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+  }
