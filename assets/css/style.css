@@ -105,8 +105,8 @@ h3{
       transform: translateY(-5px);
     }
   }
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 1000px){
       #aboutMe{
-          margin-top: 15px;
+          margin-top: 25px;
       }
   }
