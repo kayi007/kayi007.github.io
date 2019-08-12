@@ -47,6 +47,9 @@ p{
     color: #a8a5a5;
     margin: 0;
 }
+h4{
+    font-family: 'Vollkorn', serif;
+}
 
 /* Contact Page */
 /* Content Block */
@@ -72,6 +75,9 @@ h3{
     height: 100px;
     bottom: 200px;
     width: 100%;
+}
+.projDes{
+    
 }
 .projImg{
     opacity: 0.8;
