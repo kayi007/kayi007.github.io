@@ -11,7 +11,7 @@ My interests have always been around languages (human or computer) and Human-Com
 # Relavant Coursework
 - Computer Science: Introduction to Computer Science I & II, Discrete Mathematics, Philosophy 
 - Linguistics: Semantics I & II, Syntax I & II, Computational Linguistics, Mathematical Structures in Language, Phonology, Language Development, Language Processing
-- Psychology: Psychology, Cognitive Science
+- Others: Psychology, Cognitive Science
 
 # Programming Languages
 - C++
