@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+.typewriter h1 {
+    animation: 
+      typing .95s steps(11, end),
+      blink-caret .75s step-end infinite;
+    overflow: hidden; 
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap; 
+    /* Keeps the content on a single line */
+    width: 14ch;
+    /*Gives that scrolling effect as the typing happens*/
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    margin: 0 auto;
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px lightblue;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    0% { width: 0ch }
+    100% { width: 14ch }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/* .intro{
+    background-color: cadetblue;
+} */
+
+body{
+    background-color: transparent;
+}
+html { 
+    background: url("https://media.giphy.com/media/34AFxPkucpPz2/giphy.gif") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  #nav {
+    font-weight: 400;
+  }
+  
+  /* .buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  } */
+  
+  .container {
+    /* align-items: center; */
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    padding: 1em; */
+  }
+  @media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  h1 {
+    color: #000;
+    /* font-size: 1.25em; */
+    font-weight: 900;
+  }
+  /* @media (min-width: 450px) {
+    h1 {
+      font-size: 1.75em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1 {
+      font-size: 3.25em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1 {
+      font-size: 5.25em;
+      margin: 0 0 1em;
+    }
+  } */
+  
+  a {
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  p {
+    color: rgb(29, 43, 43);
+    font-size: 30px;
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+  }
+  /* @media (min-width: 600px) {
+    p {
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      top: 90%;
+    }
+  } */
+  @media (max-height: 500px) {
+    p {
+      left: 0;
+      position: relative;
+      top: 0;
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0);
+    }
+  }
+  p a {
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid;
+    color: #fff;
+    line-height: 1.4;
+    padding: .25em;
+    text-decoration: none;
+  }
+  p a:hover {
+    background: white;
+    color: #E1332D;
+  }
+  
+  .btn {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    /* margin: 0 0 2em; */
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  /* @media (min-width: 600px) {
+    .btn {
+      margin: 0 1em 2em;
+    }
+  } */
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .btn-1 {
+    /* background: #e02c26; */
+    font-weight: 100;
+  }
+  .btn-1 svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .btn-1 rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+  
+  .btn-1:hover {
+    background: rgba(225, 51, 45, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .btn-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .btn-2 {
+    letter-spacing: 0;
+  }
+  
+  .btn-2:hover,
+  .btn-2:active {
+    letter-spacing: 5px;
+  }
+  
+  .btn-2:after,
+  .btn-2:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+  .btn-2:hover:after,
+  .btn-2:hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+  }
+  
+  .btn-2:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+  }
+  
+
+  
