@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 .typewriter h1 {
     animation: 
@@ -31,36 +33,24 @@
     50% { border-color: orange; }
   }
 
-/* .intro{
-    background-color: cadetblue;
-} */
-
 body{
     background-color: transparent;
 }
 html { 
-    background: url("https://media.giphy.com/media/34AFxPkucpPz2/giphy.gif") no-repeat center center fixed; 
+    background: url("https://media.giphy.com/media/34AFxPkucpPz2/giphy.gif") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow: auto;
     background-size: cover;
   }
 
   #nav {
     font-weight: 400;
   }
-  
-  /* .buttons {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-  } */
-  
+
   .container {
     /* align-items: center; */
     display: flex;
@@ -80,66 +70,31 @@ html {
     /* font-size: 1.25em; */
     font-weight: 900;
   }
-  /* @media (min-width: 450px) {
-    h1 {
-      font-size: 1.75em;
-    }
-  }
-  @media (min-width: 760px) {
-    h1 {
-      font-size: 3.25em;
-    }
-  }
-  @media (min-width: 900px) {
-    h1 {
-      font-size: 5.25em;
-      margin: 0 0 1em;
-    }
+
+  /* a {
+    font-family: 'Shadows Into Light', cursive;
   } */
   
-  a {
-    font-family: 'Shadows Into Light', cursive;
-  }
-
-  p {
+  #intro {
     color: rgb(29, 43, 43);
     font-size: 30px;
     /* font-family: 'Amatic SC', cursive; */
     /* font-family: 'Shadows Into Light', cursive; */
     font-family: 'Sacramento', cursive;
     text-align: center;
+    font-weight: bold;
   }
-  /* @media (min-width: 600px) {
-    p {
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      top: 90%;
-    }
-  } */
+  
   @media (max-height: 500px) {
     p {
       left: 0;
       position: relative;
       top: 0;
       -webkit-transform: translate(0, 0);
-              transform: translate(0, 0);
+      transform: translate(0, 0);
     }
   }
-  p a {
-    background: rgba(255, 255, 255, 0);
-    border-bottom: 1px solid;
-    color: #fff;
-    line-height: 1.4;
-    padding: .25em;
-    text-decoration: none;
-  }
-  p a:hover {
-    background: white;
-    color: #E1332D;
-  }
-  
+
   .btn {
     color: #fff;
     cursor: pointer;
@@ -153,11 +108,7 @@ html {
     text-transform: uppercase;
     width: 100%;
   }
-  /* @media (min-width: 600px) {
-    .btn {
-      margin: 0 1em 2em;
-    }
-  } */
+
   .btn:hover {
     text-decoration: none;
   }
@@ -230,6 +181,95 @@ html {
     top: 0;
     width: 70%;
   }
+
+  #P {
+    height: 500px;
+  }
+
+  #projSide{
+    margin-top: 150px;
+  }
+
+  #proj {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 6px;
+    color: #e8b8b8;
+  } 
+
+  .outer {
+    width: 10px;
+    height: 100%;
+    margin-left: 6px;
+    /* margin: auto; */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .inner {
+    position: absolute;
+    /* width:100%; */
+    height: 40%;
+    background: grey;
+    top: 30%;
+    box-shadow: 0px 0px 30px 20px #e8b8b8;
+  }
+
+/* Unnecessary  Stuff */
+  /* .buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  } */
+  
+  /* @media (min-width: 450px) {
+    h1 {
+      font-size: 1.75em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1 {
+      font-size: 3.25em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1 {
+      font-size: 5.25em;
+      margin: 0 0 1em;
+    }
+  } */
+  
+
+  /* @media (min-width: 600px) {
+    p {
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      top: 90%;
+    }
+  } */
+  /* p a {
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid;
+    color: #fff;
+    line-height: 1.4;
+    padding: .25em;
+    text-decoration: none;
+  } */
+  /* p a:hover {
+    background: white;
+    color: #E1332D;
+  } */
+  
+  /* @media (min-width: 600px) {
+    .btn {
+      margin: 0 1em 2em;
+    }
+  } */
   
 
   
