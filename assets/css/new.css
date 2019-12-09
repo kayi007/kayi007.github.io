@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900); */
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i'); */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i'); */
 
 /* * {
   overflow: auto;
@@ -93,7 +93,7 @@ html {
   @media (max-height: 500px) {
     p {
       left: 0;
-      position: relative;
+      /* position: relative; */
       top: 0;
       -webkit-transform: translate(0, 0);
       transform: translate(0, 0);
@@ -234,6 +234,18 @@ html {
     font-size: 20px;
   }
 
+  #location {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    text-shadow: 1px 1px gray;
+    color: lightcyan !important;
+  }
+
+  #resume{
+    line-height: 2;
+  }
+
   /* Portfolio Section */
 
   #projSide{
@@ -302,7 +314,7 @@ img {
   
   .hovereffect img {
   display:block;
-  position:relative;
+  /* position:relative; */
   -webkit-transition:all .4s linear;
   transition:all .4s linear;
   }
@@ -311,7 +323,7 @@ img {
   text-transform:uppercase;
   color:#fff;
   text-align:center;
-  position:relative;
+  /* position:relative; */
   font-size:17px;
   background:rgba(0,0,0,0.6);
   -webkit-transform:translatey(-100px);
