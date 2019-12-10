@@ -440,3 +440,30 @@ footer{
     color: rgba(167, 201, 248, 0.829);
     margin: 0;
 }
+
+@media only screen and (max-width: 991.98px){
+    .circular--landscape{
+        height: 700px;
+    }
+    #projSide{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+    .circular--landscape{
+        height: 340px;
+    }
+}
+
+@media only screen and (max-width: 767.98px){
+    .circular--landscape{
+        height: 500px;
+    }
+    #projSide{
+        display: none;
+    }
+    .buttons a{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
