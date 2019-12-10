@@ -1,6 +1,6 @@
 # Kathleen Leung's Portfolio
-https://kayi007.github.io/
-<img src="https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif">
+<img src="https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif"> <br />
+https://kayi007.github.io/ 
 
 # About Me
 I am a hard-working and passionate individual with an urge to learn new technologies and skills. After graduating from UCLA (Linguistics Major, Specialization in Computing) and working for a year and half, I decided to continue my studies at UCLA Extension Full-Stack Coding Bootcamp, further exploring my interests and pushing my abilities.
