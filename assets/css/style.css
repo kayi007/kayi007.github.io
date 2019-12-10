@@ -467,3 +467,15 @@ footer{
         margin-left: 50px;
     }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 425px){
+  .circular--landscape{
+      height: 400px;
+  }
+  #projSide{
+      display: none;
+  }
+  .typewriter h1 {
+    font-size: 30px;
+  }
+}
