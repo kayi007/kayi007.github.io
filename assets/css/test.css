@@ -175,6 +175,12 @@ body{
     margin-top: 70px;
   }
 
+  #lang p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px !important;
+    color: rgba(255, 182, 193, 0.815) !important;
+  }
+
   #A h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
