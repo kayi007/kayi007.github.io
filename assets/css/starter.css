@@ -1,0 +1,29 @@
+body{
+    background-color: #2d3748;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glitch-text{
+    text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+    font-family: roboto;
+}
+
+a{
+    font-family: roboto;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+}
+  
+  h1{
+    color: #FFF;
+    font-size: 50px;
+  }
+  
+  .glitch-box{
+    box-shadow:-8px -8px 0 cyan, 8px 8px 0 magenta;
+  }
