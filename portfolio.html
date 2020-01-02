@@ -96,9 +96,9 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
                             </ol>
                             <div class="carousel-inner rounded">
                                 <div class="carousel-item hovereffect active">
@@ -125,14 +125,9 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item hovereffect">
-                                    <img class="d-block w-100" src="assets/images/help.jpeg" alt="Second slide">
+                                    <img class="d-block w-100" src="assets/images/p2.png" alt="Second slide">
                                     <div class="overlay rounded">
                                         <h2>HelpFull</h2>
-                                        <a class="info" href="https://github.com/ramonb621/GroupProject2"
-                                            target="_blank">view code</a>
-                                        <a class="info" href="https://mkdr-project2.herokuapp.com/"
-                                            target="_blank">explore
-                                            demo</a>
                                         <div class="projDes mt-5 bg-light p-4">
                                             <p class="text-dark" style="font-size: 18px;"><b>HelpFull is an all-in-one
                                                     app
@@ -146,6 +141,11 @@
                                                 (file
                                                 system)</p>
                                         </div>
+                                        <a class="info" href="https://github.com/ramonb621/GroupProject2"
+                                            target="_blank">view code</a>
+                                        <a class="info" href="https://mkdr-project2.herokuapp.com/"
+                                            target="_blank">explore
+                                            demo</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item hovereffect">
@@ -170,7 +170,7 @@
                                             demo</a>
                                     </div>
                                 </div>
-                                <div class="carousel-item hovereffect">
+                                <!-- <div class="carousel-item hovereffect">
                                     <img class="d-block w-100" src="assets/images/gbooks.jpeg" alt="Third slide">
                                     <div class="overlay rounded">
                                         <h2>Google Search Books</h2>
@@ -234,7 +234,7 @@
                                                 Town)</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                                 data-slide="prev">
@@ -253,101 +253,63 @@
             </div>
         </div>
 
-        <div class="container" id="A">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="row">
-                        <div class="col circular--landscape p-0">
-                            <img src="assets/images/kayi007.jpg" alt="Kathleen Leung" class="img-fluid" />
+        <div class="container">
+            <ul class="cards">
+                <li class="cards__item">
+                    <div class="card">
+                        <div class="card__image card__image--fence"></div>
+                        <div class="card__content">
+                            <div class="card__title">Flex</div>
+                            <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis
+                                combined. The second and third parameters (flex-shrink and flex-basis) are optional.
+                                Default is 0 1 auto. </p>
+                            <button class="btn btn--block card__btn">Button</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p id="location"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> &nbsp;&nbsp;
-                                Los
-                                Angeles</p>
+                </li>
+                <li class="cards__item">
+                    <div class="card">
+                        <div class="card__image card__image--river"></div>
+                        <div class="card__content">
+                            <div class="card__title">Flex Grow</div>
+                            <p class="card__text">This defines the ability for a flex item to grow if necessary. It
+                                accepts a unitless value that serves as a proportion. It dictates what amount of the
+                                available space inside the flex container the item should take up.</p>
+                            <button class="btn btn--block card__btn">Button</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <a href="Resume.pdf" target="_blank" class="btn btn-outline-info btn-sm" id="resume">VIEW MY
-                                RESUME</a>
+                </li>
+                <li class="cards__item">
+                    <div class="card">
+                        <div class="card__image card__image--record"></div>
+                        <div class="card__content">
+                            <div class="card__title">Flex Shrink</div>
+                            <p class="card__text">This defines the ability for a flex item to shrink if necessary.
+                                Negative numbers are invalid.</p>
+                            <button class="btn btn--block card__btn">Button</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col" id="lang">
-                            <p class="text-center mt-3">Chinese Mandarin /Cantonese /Shanghainese /French /English</p>
+                </li>
+                <li class="cards__item">
+                    <div class="card">
+                        <div class="card__image card__image--flowers"></div>
+                        <div class="card__content">
+                            <div class="card__title">Flex Basis</div>
+                            <p class="card__text">This defines the default size of an element before the remaining space
+                                is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword
+                                means "look at my width or height property."</p>
+                            <button class="btn btn--block card__btn">Button</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 p-5">
-                    <h2>Kathleen Leung &#127802;</h2>
-                    <p>A passionate Full Stack Software Developer & Designer with an urge to learn new technologies and
-                        skills. I was born and raised on Saipan, one of the Mariana Islands in the western Pacific
-                        Ocean.
-                        Moved to the city of angels in 2011.</p>
-
-                    <p>Due to the reason I've moved around a lot as a kid, I've developed a strong curiosity about how
-                        others see the world and to view life from other perspectives, to learn how people deal with the
-                        same problem differently. Traveling force you to take in new and refreshing perspectives. If I'm
-                        not
-                        coding, you'll find me traveling.</p>
-
-                    <p>My interests have always been around languages (human or computer) and Human-Computer
-                        interaction. I
-                        believe that making an application to reach its full potential not only require innovative ideas
-                        but
-                        also with great designs & functionalities. As a future Software Engineer, I want to be able to
-                        solve
-                        problems in creative ways while hopefully impacting the lives of others.</p>
-
-                    <p><b class="text-dark">Education:</b><br />
-                        UCLA 17; Linguistics Major w/ spcialization in Computing <br />
-                        UCLA Extension 19; Full Stack Software Development, Certified</p>
-
-                    <p><b class="text-dark">Technical Skills:</b><br />
-                        C++ • Haskell • HTML5/CSS3 • JavaScript/jQuery • MySQL • ES6 • REST API • Bootstrap • Responsive
-                        Design • MongoDB • Express • React • Node • Heroku • Firebase • UI/UX
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container" id="C">
-            <div class="row">
-                <div class="col mt-5">
-                    <h2 class="mb-3">Let's Connect</h2>
-                    <p class="mb-3">If you have a project that you want to get started or about a project collaboration
-                        or
-                        just simply wanna say hi, feel free to shoot me an email.</p>
-                    <a href="mailto:kathleenleungky@gmail.com" id="email"><i class='far fa-envelope text-warning'
-                            style='font-size:24px'></i>&nbsp;&nbsp; kathleenleungky@gmail.com</a>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col align-self-center">
-                    <div id="socialMedia">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/kayi007" target="_blank"><i
-                                        class="fab fa-github icon"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/leungkathleen/" target="_blank"><i
-                                        class="fab fa-linkedin-in icon"></i></a></li>
-                            <li>
-                                <a href="mailto:kathleenleungky@gmail.com"><i class="fab fa-google-plus-g icon"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
 
         <footer>
             <div class="container-fluid" id="end">
                 <div class="row">
                     <div class="col-xs-12 col-md-12">
+                        <p class="glitch-text">KL</p>
                         <p id="lastP">Copyright &copy; 2019 Kathleen Leung</p>
                     </div>
                 </div>
