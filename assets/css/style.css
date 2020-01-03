@@ -1,11 +1,11 @@
 html { 
-    /* background: url("../images/white-waves.png") no-repeat center center fixed;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 100%;
     overflow: auto;
     background-size: cover;
+    background-color: #f0f0f0;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 
 .typewriter h1 {
     animation: 
-      typing .95s steps(11, end),
+      typing .95s steps(16, end),
       blink-caret .75s step-end infinite;
     overflow: hidden; 
     /* Ensures the content is not revealed until the animation */
@@ -29,7 +29,7 @@ body{
     /* The typwriter cursor */
     white-space: nowrap; 
     /* Keeps the content on a single line */
-    width: 14ch;
+    width: 14.5ch;
     /*Gives that scrolling effect as the typing happens*/
     letter-spacing: .15em;
     /* Adjust as needed */
@@ -52,10 +52,10 @@ body{
 
   #intro {
     color: rgb(29, 43, 43);
-    font-size: 32px;
+    font-size: 16px;
     letter-spacing: 1px;
     text-shadow: 1px 1px lightslategrey;
-    font-family: 'Sacramento', cursive;
+    font-family: Palatino, URW Palladio L, serif;
     text-align: center;
     font-weight: bold;
   }
@@ -91,7 +91,7 @@ body{
     margin-right: 40px;
 } */
 
-  .btn {
+  #nav .btn {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
@@ -128,7 +128,6 @@ body{
   
   .btn-1:hover {
     background: rgba(225, 51, 45, 0);
-    /* color: rgba(225, 51, 45, 0); */
     font-weight: 900;
     letter-spacing: 1px;
   }
@@ -182,16 +181,24 @@ body{
     margin-top: 70px;
   }
 
+  #profilePic{
+    margin-top: 150px;
+  }
+   
+  #descrip{
+    padding-bottom: 0;
+  }
+
   #lang p{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px !important;
-    color: rgba(250, 164, 177, 0.856) !important;
+    color: darkslategrey !important;
   }
 
   #A h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
-    color: rgb(167, 201, 248);
+    color: black;
   }
   #A img{
     overflow: hidden;
@@ -213,21 +220,18 @@ body{
   }
 
   #A p {
-    /* color: white; */
+    color: rgba(56, 88, 88, 0.966);
     font-size: 20px;
   }
 
   #location {
     text-align: center;
     letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 30px;
     padding-top: 15px;
-    text-shadow: 1px 1px rgb(243, 125, 125);
-    color: rgb(156, 26, 26) !important;
-  }
-
-  #resume{
-    line-height: 2;
-    /* color: #17a2b8 !important; */
+    text-shadow: 1px 1px lightpink;
+    color: brown !important;
   }
 
 /* Portfolio */
@@ -357,20 +361,21 @@ body{
     /* Contact */
     #C h2{
         font-size: 45px;
-        color: rgb(247, 218, 164);
+        color: black;
+        font-weight: bold;
         text-shadow: 1px 1px whitesmoke;
-        font-family: 'Fredericka the Great', cursive;
+        font-family: 'Sacramento', cursive;
     }
 
     #C p {
-        color: whitesmoke;
+        color: lightslategray;
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     #email{
         text-decoration: none;
-        color: whitesmoke;
+        color: lightslategray;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 25px;
     }
@@ -438,6 +443,30 @@ body{
       ul li:nth-child(3) a:before {
         background: #dd4b39;
       }
+  
+  #C .double-underline{
+    position: relative;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .double-underline:after, .double-underline:before{
+      content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    background-color:darkseagreen;
+    display: block;
+    height: 3px;
+  }
+  .double-underline:after {
+      bottom: -25px;
+    left: 30px;
+    }
+  
+  .double-underline:before {
+      bottom: -20px;
+    }
 
 /* Footer */
 footer{
@@ -448,7 +477,8 @@ footer{
 .glitch-text{
   color: dimgray;
   text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
-  /* font-family: roboto; */
+  font-family: URW Chancery L, cursive;
+  font-weight: bold;
 }
 
 #end{
@@ -617,9 +647,9 @@ display: none;
 *::after {
   box-sizing: border-box;
 } */
-html {
+/* html {
   background-color: #f0f0f0;
-}
+} */
 body {
   color: #999999;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -647,6 +677,10 @@ img {
 .btn--block {
   display: block;
   width: 100%;
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #696969;
+  padding: 0.5rem;
 }
 .cards {
   display: flex;
@@ -736,3 +770,27 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
+
+/* about horizantal test */
+
+/* .double-underline{
+  position: relative;
+  display: inline-block;
+} */
+/* .double-underline:after, .double-underline:before{
+   content: "";
+  position: absolute;
+  z-index: -1;
+  width: 10%;
+  background-color:black;
+  display: block;
+  height: 3px;
+}
+.double-underline:after {
+  left: 200px;
+ }
+
+.double-underline:before {
+   bottom: -175px;
+ } */
+
