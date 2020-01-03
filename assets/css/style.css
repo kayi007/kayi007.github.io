@@ -54,7 +54,7 @@ body{
     color: rgb(29, 43, 43);
     font-size: 16px;
     letter-spacing: 1px;
-    text-shadow: 1px 1px lightslategrey;
+    text-shadow: 1px 1px lightblue;
     font-family: Palatino, URW Palladio L, serif;
     text-align: center;
     font-weight: bold;
@@ -181,9 +181,9 @@ body{
     margin-top: 70px;
   }
 
-  #profilePic{
+  /* #profilePic{
     margin-top: 150px;
-  }
+  } */
    
   #descrip{
     padding-bottom: 0;
@@ -236,14 +236,14 @@ body{
 
 /* Portfolio */
 #projSide{
-    margin-top: 150px;
+    margin-top: 120px;
   }
 
   #proj {
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 6px;
-    color: #e8b8b8;
+    color: rgba(216, 112, 147, 0.856);
   } 
 
   .outer {
@@ -259,7 +259,7 @@ body{
     height: 40%;
     background: grey;
     top: 30%;
-    box-shadow: 0px 0px 30px 20px #e8b8b8;
+    box-shadow: 0px 0px 30px 20px palevioletred;
   }
 
 /* Carasol */
@@ -491,6 +491,12 @@ footer{
     margin: 0;
 }
 
+@media only screen and (min-width: 1199.90px) and (max-width: 2560px){
+  #profilePic{
+    margin-top: 150px;
+  }
+}
+
 @media only screen and (max-width: 991.98px){
     .circular--landscape{
         height: 700px;
@@ -502,6 +508,9 @@ footer{
 @media only screen and (min-width: 992px) and (max-width: 1199.98px){
     .circular--landscape{
         height: 340px;
+    }
+    #profilePic{
+      margin-top: 190px;
     }
 }
 
@@ -516,6 +525,9 @@ footer{
         margin-right: 50px;
         margin-left: 50px;
     }
+    #intro {
+      font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px){
@@ -527,6 +539,9 @@ footer{
   }
   .typewriter h1 {
     font-size: 30px;
+  }
+  #intro {
+    font-size: 12px;
   }
 }
 
@@ -754,8 +769,8 @@ img {
 .card__image--record {
   background-image: url(https://unsplash.it/800/600?image=39);
 }
-.card__image--fence {
-  background-image: url(https://unsplash.it/800/600?image=59);
+.card__image--googleSearch {
+  background-image: url("../images/gbooks.jpeg");
 }
 .card__title {
   color: #696969;
