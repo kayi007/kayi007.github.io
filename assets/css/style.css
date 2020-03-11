@@ -19,6 +19,20 @@ body{
   color: rgb(167, 201, 248);
 }
 
+header {
+  background-image: url("../images/saipan.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#introText {
+  padding-top: 350px;
+  padding-bottom: 200px;
+}
+
 .typewriter h1 {
     animation: 
       typing .95s steps(16, end),
@@ -67,6 +81,21 @@ body{
   }
 
 /* Nav */
+#mainNav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: transparent;
+  transition: padding-top .3s,padding-bottom .3s;
+}
+
+.nav-link {
+  color: whitesmoke !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #55b0dc !important;
+}
+
 #nav {
     /* margin: 20px 0; */
     background-color: lightsteelblue;
@@ -177,7 +206,7 @@ body{
   }
 
 /* About */
-#A {
+#about {
     margin-top: 70px;
   }
 
@@ -195,12 +224,12 @@ body{
     color: darkslategrey !important;
   }
 
-  #A h2{
+  #about h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
     color: black;
   }
-  #A img{
+  #about img{
     overflow: hidden;
     /* margin-top needs to be adjusted based on sizes */
     margin-top: -30px;
@@ -219,7 +248,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  #A p {
+  #about p {
     color: rgba(56, 88, 88, 0.966);
     font-size: 20px;
   }
@@ -263,7 +292,7 @@ body{
   }
 
 /* Carasol */
-#P {
+#portfolio  {
     margin-bottom: 100px;
   }
   
@@ -359,7 +388,7 @@ body{
     }
 
     /* Contact */
-    #C h2{
+    #contact h2{
         font-size: 45px;
         color: black;
         font-weight: bold;
@@ -367,7 +396,7 @@ body{
         font-family: 'Sacramento', cursive;
     }
 
-    #C p {
+    #contact p {
         color: lightslategray;
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -380,16 +409,16 @@ body{
         font-size: 25px;
     }
 
-    ul {
+    #socialMedia ul {
         display: flex;
         padding: 0 !important;
       }
       
-      ul li {
+      #socialMedia ul li {
         list-style: none;
       }
       
-      ul li a {
+      #socialMedia ul li a {
         width: 40px;
         height: 40px;
         background-color: #fff;
@@ -404,19 +433,19 @@ body{
         z-index: 1;
       }
       
-      ul li a .icon {
+      #socialMedia ul li a .icon {
         position: relative;
         color: #262626;
         transition: .5s;
         z-index: 3;
       }
       
-      ul li a:hover .icon {
+      #socialMedia ul li a:hover .icon {
         color: #fff;
         transform: rotateY(360deg);
       }
       
-      ul li a:before {
+      #socialMedia ul li a:before {
         content: "";
         position: absolute;
         top: 100%;
@@ -428,23 +457,23 @@ body{
         z-index: 2;
       }
       
-      ul li a:hover:before {
+      #socialMedia ul li a:hover:before {
         top: 0;
       }
       
-      ul li:nth-child(1) a:before{
+      #socialMedia ul li:nth-child(1) a:before{
         background: #5bb859;
       }
       
-      ul li:nth-child(2) a:before {
+      #socialMedia ul li:nth-child(2) a:before {
         background: #0077b5;
       }
       
-      ul li:nth-child(3) a:before {
+      #socialMedia ul li:nth-child(3) a:before {
         background: #dd4b39;
       }
   
-  #C .double-underline{
+  #contact .double-underline{
     position: relative;
     width: 10%;
     margin-left: auto;
@@ -530,9 +559,9 @@ footer{
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 425px){
+@media only screen and (min-width: 376px) and (max-width: 425px){
   .circular--landscape{
-      height: 400px;
+      height: 420px;
   }
   #projSide{
       display: none;
@@ -542,6 +571,52 @@ footer{
   }
   #intro {
     font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+  .circular--landscape{
+      height: 380px;
+  }
+  .fa-envelope{
+    font-size: 20px !important;
+  }
+  #email{
+    font-size: 18px;
+  }
+  #projSide{
+      display: none;
+  }
+  .typewriter h1 {
+    font-size: 30px;
+  }
+  #intro {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  h1{
+    font-size: 12px;
+  }
+  .circular--landscape{
+      height: 315px;
+  }
+  .fa-envelope{
+    font-size: 20px !important;
+  }
+  #email{
+    font-size: 18px;
+  }
+  #projSide{
+      display: none;
+  }
+  .buttons a{
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+  #intro {
+    font-size: 13px;
   }
 }
 
