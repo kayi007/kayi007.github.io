@@ -1,7 +1,19 @@
-$("#pressButton").on("click", function (event) {
-    event.preventDefault();
-});
+// $("#pressButton").on("click", function (event) {
+//     event.preventDefault();
+// });
 $(function () {
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('a.go-to-top').fadeIn(); 
+        } else { 
+            $('a.go-to-top').fadeOut(); 
+        } 
+    }); 
+    $('a.go-to-top').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
     $('.carousel-item').eq(0).addClass('active');
     var total = $('.carousel-item').length;
     var current = 0;
@@ -33,6 +45,8 @@ $(function () {
         console.log('prev ' + prev);
     }
 });
+
+
 
 // $(document).ready(function(){
 //     var myVar;

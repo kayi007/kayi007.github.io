@@ -93,6 +93,10 @@ header {
   transition: padding-top .3s,padding-bottom .3s;
 }
 
+a.go-to-top {
+  transition: all .2s ease-in;
+}
+
 .nav-link {
   color: whitesmoke !important;
 }
