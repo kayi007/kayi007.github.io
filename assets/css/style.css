@@ -215,6 +215,13 @@ a.go-to-top {
     width: 70%;
   }
 
+/* Service */
+#services img {
+  /* max-width: 100%; */
+  width: 3.0rem;
+  /* height: 40px; */
+}
+
 /* About */
 #about {
     margin-top: 70px;
