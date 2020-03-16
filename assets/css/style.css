@@ -103,7 +103,7 @@ a.go-to-top {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #55b0dc !important;
-  border-bottom: 3px solid #55b0dc;
+  /* border-bottom: 3px solid #55b0dc;å */
 }
 
 #nav {
@@ -217,9 +217,9 @@ a.go-to-top {
 
 /* Service */
 #services img {
-  /* max-width: 100%; */
-  width: 3.0rem;
-  /* height: 40px; */
+  max-width: 100%;
+  /* width: 3.0rem; */
+  height: 40px;
 }
 
 /* About */
