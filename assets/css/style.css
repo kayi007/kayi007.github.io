@@ -221,6 +221,19 @@ a.go-to-top {
   /* width: 3.0rem; */
   height: 40px;
 }
+#services h2{
+  color: #703854;
+}
+#services p{
+  font-size: 18px;
+}
+#specialization p{
+  margin-bottom: 22px;
+}
+h5{
+  padding-bottom: 6px;
+  color: #703854;
+}
 
 /* About */
 #about {
