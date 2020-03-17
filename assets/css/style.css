@@ -11,7 +11,9 @@ html {
 body{
     background-color: transparent;
 }  
-
+section{
+  padding: 100px 0;
+}
 /* Header */
 .glitch-box:hover{
   text-decoration: none;
@@ -219,8 +221,14 @@ h5{
 
 /* Carasol */
 #portfolio  {
-    margin-bottom: 100px;
-  }
+  margin-bottom: 100px;
+}
+#portfolio h2{
+  color: #703854;
+}
+#portfolio p{
+  font-size: 18px;
+}
   
   img {
     max-width: 100%; 
@@ -467,6 +475,12 @@ footer{
     #profilePic{
       margin-top: 190px;
     }
+}
+
+@media only screen and (min-width: 768px){
+  section{
+    padding: 120px 0;
+  }
 }
 
 @media only screen and (max-width: 767.98px){
