@@ -8,6 +8,20 @@ $(function () {
         } else { 
             $('a.go-to-top').fadeOut(); 
         } 
+
+        if ($(this).scrollTop() > 600){
+            $('#mainNav').css('background-color', 'red');
+            $("#mainNav").css('background-image', 'linear-gradient(to bottom right, #ff8870, #ff7987)');
+        }else{
+            $('#mainNav').css('background-color', 'transparent');
+            $('#mainNav').css('background-image', 'none');
+            $('#mainNav').removeClass('nav-shrink');
+        }
+
+        if($(this).scrollTop() > 650){
+            $('#mainNav').addClass('nav-shrink');
+        }
+
     }); 
     $('a.go-to-top').click(function(){ 
         $("html, body").animate({ scrollTop: 0 }, 600); 
