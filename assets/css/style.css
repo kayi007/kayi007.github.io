@@ -146,9 +146,7 @@ h5{
     padding-bottom: 0;
   }
 
-  #lang p{
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 25px !important;
+  #lang {
     color: darkslategrey !important;
   }
 
@@ -181,11 +179,10 @@ h5{
     font-size: 20px;
   }
 
-  #location {
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 30px;
+  .fa-map-marker-alt {
+    /* letter-spacing: 1px; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-weight: 30px; */
     padding-top: 15px;
     text-shadow: 1px 1px lightpink;
     color: brown !important;
@@ -200,7 +197,7 @@ h5{
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 6px;
-    color: rgba(216, 112, 147, 0.856);
+    color: rgba(161, 67, 98, 0.856);
   } 
 
   .outer {
@@ -234,7 +231,9 @@ img {
   max-width: 100%; 
   height: auto;
 }
-
+.projDes{
+  margin-top: 3rem;
+}
 .hovereffect {
   width:100%;
   height:100%;
@@ -455,9 +454,9 @@ font-weight: bold;
 }
 
 @media only screen and (min-width: 1199.90px) and (max-width: 2560px){
-#profilePic{
-  margin-top: 150px;
-}
+  #profilePic{
+    margin-top: 150px;
+  }
 }
 
 @media only screen and (max-width: 991.98px){
@@ -477,25 +476,35 @@ font-weight: bold;
   }
 }
 
+
 @media only screen and (min-width: 768px){
-section{
-  padding: 120px 0;
-}
+  section{
+    padding: 120px 0;
+  }
 }
 
 @media only screen and (max-width: 767.98px){
   .circular--landscape{
-      height: 550px;
+    height: 550px;
   }
   #projSide{
-      display: none;
+    display: none;
   }
   .buttons a{
-      margin-right: 50px;
-      margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   #intro {
     font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+  .hovereffect h2{
+    padding: 25px;
+  }
+  .hovereffect a.info {
+    margin: 40px 30px 0;
   }
 }
 
@@ -511,6 +520,22 @@ section{
   }
   #intro {
     font-size: 12px;
+  }
+  .hovereffect h2{
+    padding: 10px;
+  }
+  .hovereffect a.info {
+    margin: 20px 30px 0;
+  }
+  .hovereffect b{
+    font-size: 10px;
+  }
+  .projDes p{
+    font-size: 10px !important;
+    line-height: 0.9 !important;
+  }
+  .hovereffect .projDes{
+    margin-top: 20px !important;
   }
 }
 
