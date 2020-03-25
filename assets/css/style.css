@@ -237,6 +237,7 @@ img {
 }
 .projDes{
   margin-top: 3rem;
+  padding: 1.5rem;
 }
 .hovereffect {
   width:100%;
@@ -551,7 +552,7 @@ font-weight: bold;
 
 @media only screen and (min-width: 321px) and (max-width: 375px){
   .circular--landscape{
-      height: 380px;
+      height: 375px;
   }
   .fa-envelope{
     font-size: 20px !important;
@@ -567,6 +568,28 @@ font-weight: bold;
   }
   #intro {
     font-size: 12px;
+  }
+  .hovereffect h2{
+    padding: 10px;
+  }
+  .hovereffect a.info {
+    margin: 20px 30px 0;
+  }
+  .hovereffect b{
+    font-size: 10px;
+  }
+  .projDes{
+    padding: 0.6rem;
+  }
+  .hovereffect:hover a.viewCode{
+    display: none;
+  }
+  .projDes p{
+    font-size: 10px !important;
+    line-height: 0.9 !important;
+  }
+  .hovereffect .projDes{
+    margin-top: 7px !important;
   }
 }
 
