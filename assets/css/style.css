@@ -14,6 +14,9 @@ body{
 section{
   padding: 100px 0;
 }
+.animated{
+  opacity: 0;
+}
 /* Header */
 .glitch-box:hover{
   text-decoration: none;
@@ -28,7 +31,8 @@ section{
 
 header {
   background-image: url("../images/saipan.jpg");
-  height: 100%;
+  min-height: 100vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -88,6 +92,10 @@ header {
   }
 
 /* Nav */
+.fa-angle-up{
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
 #mainNav {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -452,6 +460,9 @@ font-weight: bold;
 @media only screen and (min-width: 1199.90px) and (max-width: 2560px){
   #profilePic{
     margin-top: 150px;
+  }
+  #introText {
+    padding-top: 450px;
   }
 }
 
